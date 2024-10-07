@@ -1,10 +1,10 @@
-# SpringBootTemplateChatGPT
+# Spring Boot Template for ChatGPT
 
 Spring Boot backend application template for ChatGPT. Do you have some custom GPTs you want to add to your website or application? Skip the work and use this template to quickly add backend API for your custom GPTs. 
 This application is pretty much a Spring Boot skeleton of the ChatGPT browser.
 There is a small setup but it can pretty much be run right out of the box.
 
-## How to Setup
+## How to Setup 🏗️
 - Make sure you have Maven, git and an IDE like Intellij you can run Spring Boot in
 - Make sure you have an OpenAI API key ready. If you don't refer to [https://platform.openai.com/docs/api-reference/authentication](https://platform.openai.com/docs/api-reference/authentication)
 - Add your API key to your environment variables by adding `export OPENAI_KEY=your_openai_key` to you .bash_profile or .bashrd
