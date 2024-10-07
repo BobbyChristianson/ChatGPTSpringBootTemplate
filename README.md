@@ -13,3 +13,5 @@ There is a small setup but it can pretty much be run right out of the box.
 
 - Give [http://localhost:8080/api/gpt/chat]() a go in your browser to start the fun. You will want to change your controller @GetMapping to a @PostMapping but I've left it as a GET just so it can be run right out of da box
 
+## Use Info 💡
+The application will save the conversation so you can keep hitting the endpoint with follow-up questions. 
