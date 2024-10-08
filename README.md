@@ -1,6 +1,6 @@
 # Spring Boot Template for ChatGPT
 
-Spring Boot backend application template for ChatGPT. Do you have some custom GPTs you want to add to your website or application? Skip the work and use this template to quickly add backend API for your custom GPTs. 
+Spring Boot backend application template for ChatGPT. Do you have some custom GPTs you want to add to your website or application? Skip the work and use this template to quickly add backend API. 
 This application is pretty much a Spring Boot skeleton of the ChatGPT browser.
 There is a small setup but it can pretty much be run right out of the box.
 
@@ -11,7 +11,7 @@ There is a small setup but it can pretty much be run right out of the box.
 - Add your custom GPT by adding your model id here in  ChatService.java
    ![Screenshot 2024-10-07 at 2 23 30 PM](https://github.com/user-attachments/assets/e2e00479-c8fc-4f31-8630-05a27128b574)
 
-- Give [http://localhost:8080/api/gpt/chat]() a go in your browser to start the fun. You will want to change your controller @GetMapping to a @PostMapping but I've left it as a GET just so it can be run right out of da box. Hit it with a specific messgae like [http://localhost:8080/api/gpt/chat?message=Why+does+San+Diego+have+the+best+mexican+food]()
+- Give [http://localhost:8080/api/gpt/chat]() a go in your browser to start the fun. You will want to change your controller @GetMapping to a @PostMapping but I've left it as a GET just so it can be run right out of da box. Hit it with a specific message like [http://localhost:8080/api/gpt/chat?message=Why+does+San+Diego+have+the+best+mexican+food]()
 
 ## Use Info 💡
 The application will save the conversation so you can keep hitting the endpoint with follow-up questions.  
